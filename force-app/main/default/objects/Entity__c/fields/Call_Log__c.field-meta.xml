@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Log__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Linked Call Log</inlineHelpText>
+    <label>Call Log</label>
+    <referenceTo>Call_Log__c</referenceTo>
+    <relationshipLabel>Entities</relationshipLabel>
+    <relationshipName>Entities</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
